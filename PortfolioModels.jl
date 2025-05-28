@@ -15,10 +15,14 @@ using PrettyTables
 
 function compute_mv_weights(mean_rets::Matrix{Float64}, cov_matrix_rets::Matrix{Float64}, target_ret::Float64)
     """
-    mean-variance optimization model
+    Mean-variance optimization model
+    This function computes the optimal portfolio weights that minimize the variance
+    of the portfolio returns while ensuring that the portfolio return is above the target return.
+    
     mean_rets: mean returns of the assets
     cov_matrix_rets: covariance matrix of the asset returns
     target_ret: target return for the portfolio
+
     returns : optimal weights, mean return of the optimal portfolio, and the model.
     """
     n = size(mean_rets, 2)
@@ -156,16 +160,11 @@ function compute_romega_ratio_weights(rets, mixture_means, mixture_weights, tau,
     mean_rets = sum([mean(rets_sampled[i], dims=1)*mixture_weights[i] for i in 1:size(mixture_weights,1)]) 
 
     for d in delta_range
-
         w_opt, omega, _ = compute_weights(rets, mixture_means, tau, d);
-        push!(output, [d, w_opt, dot(w_opt, mean_rets), omega])
-        
+        push!(output, [d, w_opt, dot(w_opt, mean_rets), omega])   
     end
 
-   
     max_ret_idx = argmax(output.folio_mean_ret)
-
-    
     opt_folio = output[max_ret_idx, :]
 
     return opt_folio.delta, opt_folio.weights, opt_folio.folio_mean_ret, opt_folio.ret_loss_tradeOff, output
@@ -259,7 +258,7 @@ function compute_rolling_test_data(rets::DataFrame, start_date::Date, end_date::
     returns : DataFrame with columns for estimation start, estimation end, testing start, testing end,
               model name, and weights for each model.
     """
-    
+
     pre_filtered_data = prefilter_data(rets, start_date, end_date; 
                                        estimation_period=estimation_period, testing_period=testing_period)
 
