@@ -42,7 +42,7 @@ I demonstrate that robustness with an elliptic uncertainty set significantly imp
 
 ## Reference
 
-If you use this code or methodology in your work, please cite the following paper:
+If you use this repository or find it helpful, please consider citing the referenced paper and this repository.
 
 > "Robust optimization approaches for portfolio selection: a comparative analysis." [Annals of Operations Research, 318(2), 611–639.](https://link.springer.com/article/10.1007/s10479-021-04177-y)
 
