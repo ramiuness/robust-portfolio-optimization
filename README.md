@@ -1,6 +1,15 @@
 # Robust Portfolio Optimization
-Robust optimization (RO) extends traditional optimization models, by incorporating uncertainty as a parameter in the problem. RO extension models can be thought of as worst-case formulations of
-the original problem, as far as the deviations of the parameters from their nominal values are concerned. In the context of RO, the uncertain parameters are assumed to belong to an uncertainty set, defined based on domain knowledge and information regarding the probability distributions of the parameters.
+Robust portfolio optimization refines classical asset allocation by embedding parameter uncertainty directly into the optimization framework. Instead of relying solely on estimated inputs—such as expected returns or risk measures—it constructs portfolios that remain effective across a predefined set of plausible market conditions. This results in allocations that are explicitly designed to mitigate estimation error and perform reliably under adverse scenarios.
+
+In practical terms, robust optimization:
+
+Reduces the risk of poor performance due to inaccurate forecasts.
+
+Leads to more conservative, better diversified allocations.
+
+Offers strong out-of-sample behavior, especially in volatile or regime-shifting markets.
+
+Can be tailored through the shape and size of the uncertainty set to reflect different levels of confidence or market views.
 
 This repository provides illustrative code and a demonstration notebook for robust portfolio optimization models, inspired by the approaches described in the paper ["Robust optimization approaches for portfolio selection: a comparative analysis"](https://link.springer.com/article/10.1007/s10479-021-04177-y). The focus is on sharing coding methodology and results, rather than delivering a complete, production-ready software package.
 
