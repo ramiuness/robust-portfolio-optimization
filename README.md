@@ -14,7 +14,7 @@ In practical terms, robust optimization:
 
 - Can be tailored through the shape and size of the uncertainty set to reflect different levels of confidence or market views.
 
-I demonstrate that robustness with an elliptic uncertainty set significantly improves Sharpe ratio, Sortino ratio, CVaR, and Omega ratio, of the allocated portfolios, thus confirming the value of accounting for estimation uncertainty in portfolio design.
+I demonstrate that robustness with an elliptic uncertainty set significantly improves Sharpe ratio, Sortino ratio, CVaR, and Omega ratio, of the allocated portfolio, thus confirming the value of accounting for estimation uncertainty in portfolio design.
 	    			    		
 
 ## Highlights
