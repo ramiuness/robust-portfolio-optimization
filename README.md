@@ -1,4 +1,7 @@
 # Robust Portfolio Optimization
+
+This repository provides illustrative code and a demonstration notebook for robust portfolio optimization models including the Mean-Variance, CVaR, and Omega-ratio portfolios, as well as their robust counterparts, inspired by the approaches described in the paper ["Robust optimization approaches for portfolio selection: a comparative analysis"](https://link.springer.com/article/10.1007/s10479-021-04177-y). The focus is on sharing coding methodology and results, rather than delivering a complete, production-ready software package.
+
 Robust portfolio optimization refines classical asset allocation by embedding parameter uncertainty directly into the optimization framework. Instead of relying solely on estimated inputs—such as expected returns or risk measures—it constructs portfolios that remain effective across a predefined set of plausible market conditions. This results in allocations that are explicitly designed to mitigate estimation error and perform reliably under adverse scenarios.
 
 In practical terms, robust optimization:
@@ -10,9 +13,6 @@ In practical terms, robust optimization:
 - Offers strong out-of-sample behavior, especially in volatile or regime-shifting markets.
 
 - Can be tailored through the shape and size of the uncertainty set to reflect different levels of confidence or market views.
-
-This repository provides illustrative code and a demonstration notebook for robust portfolio optimization models, inspired by the approaches described in the paper ["Robust optimization approaches for portfolio selection: a comparative analysis"](https://link.springer.com/article/10.1007/s10479-021-04177-y). The focus is on sharing coding methodology and results, rather than delivering a complete, production-ready software package.
-
 
 I demonstrate that robustness with an elliptic uncertainty set significantly improves Sharpe ratio, Sortino ratio, CVaR, and Omega ratio, of the allocated portfolios, thus confirming the value of accounting for distributional uncertainty in portfolio design.
 	    			    		
