@@ -26,13 +26,25 @@ I demonstrate that robustness with an elliptic uncertainty set significantly imp
 - **Educational Resource:**  
   Intended as a resource for researchers, students, and practitioners interested in robust portfolio optimization and quantitative finance.
 
-## Tools & Technologies
+### 🛠 Tools & Technologies
 
-- **Language:** Julia
-- **Optimization:** JuMP, HiGhs, Gurobi
-- **Statistical Models:** Gaussian Mixture Models
-- **Notebook:** Jupyter (for demonstration and results)
-- **Backtesting:** Rolling-window methodology
+**Language**  
+![Julia](https://img.shields.io/badge/Julia-9558B2?logo=julia&logoColor=white)
+
+**Optimization**  
+![JuMP](https://img.shields.io/badge/JuMP-00BFFF?logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyBmaWxsPSIjMDAwMDAwIiBoZWlnaHQ9IjEwMCIgd2lkdGg9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI%2BPC9zdmc%2B&label=JuMP)
+![HiGHS](https://img.shields.io/badge/HiGHS-0066CC?logo=gnu&logoColor=white)
+![Gurobi](https://img.shields.io/badge/Gurobi-EE1C25?logo=gurobi&logoColor=white)
+
+**Statistical Models**  
+![GMM](https://img.shields.io/badge/Gaussian%20Mixture%20Models-6D4C41?style=flat&logo=scikit-learn&logoColor=white)
+
+**Notebook**  
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)
+
+**Backtesting**  
+![Rolling Window](https://img.shields.io/badge/Rolling--Window--Backtesting-4CAF50?style=flat)
+
 
 ## Installation
 
