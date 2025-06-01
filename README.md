@@ -3,13 +3,13 @@ Robust portfolio optimization refines classical asset allocation by embedding pa
 
 In practical terms, robust optimization:
 
-Reduces the risk of poor performance due to inaccurate forecasts.
+- Reduces the risk of poor performance due to inaccurate forecasts.
 
-Leads to more conservative, better diversified allocations.
+- Leads to more conservative, better diversified allocations.
 
-Offers strong out-of-sample behavior, especially in volatile or regime-shifting markets.
+- Offers strong out-of-sample behavior, especially in volatile or regime-shifting markets.
 
-Can be tailored through the shape and size of the uncertainty set to reflect different levels of confidence or market views.
+- Can be tailored through the shape and size of the uncertainty set to reflect different levels of confidence or market views.
 
 This repository provides illustrative code and a demonstration notebook for robust portfolio optimization models, inspired by the approaches described in the paper ["Robust optimization approaches for portfolio selection: a comparative analysis"](https://link.springer.com/article/10.1007/s10479-021-04177-y). The focus is on sharing coding methodology and results, rather than delivering a complete, production-ready software package.
 
