@@ -63,7 +63,7 @@ This framework highlights the practical value of **distributional robustness** i
 
 If you use this repository in your research, teaching, or applied work, please cite both the **original paper** and this **GitHub repository**:
 
-> Bertsimas, D., Gupta, V., & Kallus, N. (2021).  
+> Antonios Georgantas, Michalis Doumpos & Constantin Zopounidis.  
 > *Robust optimization approaches for portfolio selection: a comparative analysis*.  
 > *Annals of Operations Research, 318(2), 611–639.*  
 > [https://link.springer.com/article/10.1007/s10479-021-04177-y](https://link.springer.com/article/10.1007/s10479-021-04177-y)
