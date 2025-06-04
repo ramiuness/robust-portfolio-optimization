@@ -6,7 +6,7 @@ This project implements and demonstrates robust portfolio optimization technique
 
 ## 🌟 Key Features
 
-- **Robustification of classical models**: Implements robust counterparts to traditional allocation models by accounting for uncertainty in means and covariances.
+- **Robustification of classical models**: Implements robust counterparts to traditional allocation models by accounting for uncertainty in mean returns.
 - **Elliptic uncertainty sets**: Introduces worst-case-aware optimization using ellipsoidal perturbations of mean return estimates.
 - **Improved performance**: Demonstrates significantly higher Sharpe, Sortino, CVaR, and Omega ratios under robust specifications.
 - **Improved structure**: Achieves better diversification and lower turnover by producing more stable, balanced allocations that reduce concentration risk and transaction costs.
