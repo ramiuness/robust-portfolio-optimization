@@ -13,7 +13,7 @@ This project implements and demonstrates robust portfolio optimization technique
 - **Rolling-window backtesting**: Evaluates how robust portfolios perform under real market dynamics, especially in volatile conditions.
 - **Modular codebase**: Includes sample implementations of Mean-Variance and Omega portfolios and robust counterpart in a structured, inspectable format.
 
-This framework highlights the practical value of **distributional robustness** in financial decision-making—ensuring that portfolios are optimized for **both expected performance and resilience to estimation uncertainty**.
+This work highlights the practical value of **robustness** in financial decision-making—ensuring that portfolios are optimized for **both expected performance and resilience to estimation uncertainty**.
 
 ---
 
